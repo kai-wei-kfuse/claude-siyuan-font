@@ -9,7 +9,7 @@
    [siyuan.js](https://raw.githubusercontent.com/kai-wei-kfuse/claude-siyuan-font/main/siyuan.js)
 3. 在脚本管理器中确认安装。
 
-也可以将 `siyuan.js` 发布到 Greasy Fork 后通过 Greasy Fork 安装。
+也可以通过 Greasy Fork 或 ScriptCat 脚本站安装。Greasy Fork 发布版使用 `dist/greasyfork.user.js`，该文件不包含 GitHub `@downloadURL` / `@updateURL`，以符合 Greasy Fork 的发布规则。
 
 ## 功能
 
@@ -31,6 +31,15 @@
 ## 适配站点
 
 - `https://claude.ai/*`
+
+## 发布版本
+
+- GitHub / ScriptCat：使用 [`siyuan.js`](https://raw.githubusercontent.com/kai-wei-kfuse/claude-siyuan-font/main/siyuan.js)，保留 GitHub 更新链接。
+- Greasy Fork：使用 [`dist/greasyfork.user.js`](https://raw.githubusercontent.com/kai-wei-kfuse/claude-siyuan-font/main/dist/greasyfork.user.js)，不包含 GitHub 更新链接。
+
+## 发布说明
+
+Greasy Fork 要求脚本主体发布在 Greasy Fork 上，不应通过脚本元数据引导用户改用替代下载地址。因此发布到 Greasy Fork 时请使用 `dist/greasyfork.user.js`。ScriptCat 文档支持 `@downloadURL` 和 `@updateURL`，可以使用主脚本 `siyuan.js`。
 
 ## 常见问题
 

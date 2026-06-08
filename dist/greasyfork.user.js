@@ -13,8 +13,6 @@
 // @homepageURL  https://github.com/kai-wei-kfuse/claude-siyuan-font
 // @supportURL   https://github.com/kai-wei-kfuse/claude-siyuan-font/issues
 // @source       https://github.com/kai-wei-kfuse/claude-siyuan-font
-// @downloadURL  https://raw.githubusercontent.com/kai-wei-kfuse/claude-siyuan-font/main/siyuan.js
-// @updateURL    https://raw.githubusercontent.com/kai-wei-kfuse/claude-siyuan-font/main/siyuan.js
 // ==/UserScript==
 
 (function () {
